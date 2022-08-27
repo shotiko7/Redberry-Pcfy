@@ -1,5 +1,69 @@
 .landingmain {
     width: 1920px;
     height: 1080px;
-    background-color: pink;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}
+.logo {
+    position: absolute;
+    width: 112px;
+    height: 18px;
+    left: calc(50% - 112px/2);
+    top: 79px;
+}
+.group {
+    position: absolute;
+    width: 215.35px;
+    height: 162.78px;
+    top: 169.04px;
+    left: 565.65px;
+}
+.button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    gap: 20px;
+    position: absolute;
+    width: 387px;
+    height: 60px;
+    left: calc(50% - 387px/2 - 0.5px);
+    top: 787px;
+    background: #62A1EB;
+    border-radius: 8px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    gap: 20px;
+    position: absolute;
+    width: 387px;
+    height: 60px;
+    left: calc(50% - 387px/2 - 0.5px);
+    top: 873px;
+    background: #62A1EB;
+    border-radius: 8px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
